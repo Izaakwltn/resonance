@@ -1,0 +1,7 @@
+# resonance/pitch.py
+
+# Note/Frequency Conversions
+
+def octaveshift(freq, octaves):
+    return freq * (2 ^ octaves)
+
