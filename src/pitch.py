@@ -66,7 +66,7 @@ def freqtonote(frequency):
 
 
 def freqadjust(root, interval):
-    return (root * (2 ** (1 / 12)) ** interval)
+    return (root * ((2 ** 1/12) ** interval))
 
 
 def freqincr(root):
